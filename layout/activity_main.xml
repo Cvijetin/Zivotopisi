@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/Slika"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/slika"
+            android:contentDescription="@string/slika_desc"
+            android:scaleType="fitCenter"/>
+
+            />
+
+    <EditText
+        android:id="@+id/Ime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        />
+
+             <EditText
+            android:id="@+id/Prezime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/surname"
+    />
+        <EditText
+            android:id="@+id/Srednja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/school"
+            />
+    <EditText
+        android:id="@+id/Fakultet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/college"
+        />
+        <EditText
+            android:id="@+id/Experience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/experience"
+            />
+        <EditText
+            android:id="@+id/Mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mail"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Gumb"
+            android:text="@string/generate"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/IspisIme"
+            android:textSize="25dp"
+
+            />
+        <TextView
+            android:id="@+id/IspisPrezime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/IspisSrednja"
+            android:textSize="25dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/IspisFaks"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/IspisIskustvo"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/IspisMail"
+            android:textSize="25dp"
+            />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BodyWeight</string>
+    <string name="name">Ime</string>
+    <string name="surname">Prezime</string>
+    <string name="school">Srednja škola</string>
+    <string name="college">Fakultet</string>
+    <string name="experience">Iskustvo</string>
+    <string name="mail">E-mail</string>
+    <string name="slika_desc">Opis</string>
+    <string name="generate">Generiraj</string>
+    <string name="IspisIme">Ispis imena</string>
+    <string name="IspisPrezime">Ispis prezimena</string>
+    <string name="IspisSrednja">Ispis srednje škole</string>
+    <string name="IspisFaks">Ispis fakulteta</string>
+    <string name="IspisIskustvo">Ispis iskustva</string>
+    <string name="IspisMail">Ispis E-mail</string>
+</resources>
